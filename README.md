@@ -17,3 +17,11 @@ Steps to follow
 
 14. the crwled output should be indexed
 
+
+windows Error:
+for windows it will throw some access error, so that we have to put 
+patch-hadoop_7682-1.0.x-win.jar in the lib folder (apache-nutch-Home\lib)
+
+also we need to download if we did not set hadoop home
+HADOOP_HOME = C:\cygwin64\home\hadoop\hadoop-2.7.1
+PATH = %HADOOP_HOME%\bin;
